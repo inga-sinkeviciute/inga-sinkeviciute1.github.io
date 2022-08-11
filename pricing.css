@@ -1,0 +1,141 @@
+#pricing {
+  background: #6696E2;
+  color: white;
+  
+}
+.blue {
+  background: #6696E2;
+  color: white;
+
+}
+
+
+.plan ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: white;
+  }
+  
+  .plan ul li {
+
+    padding:10px;
+  }
+  
+  .plan ul li:last-child {
+    border-bottom: 0;
+  }
+  
+  
+  .price {
+    font-size: 50px;
+    margin: 10px 0;
+  }
+  
+
+  .pricing-grid {
+    max-width:1400px;
+    height: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: grey;
+    font-size: 10px;
+  }
+  
+
+
+  .plan {
+    display: inline-flex;
+    flex: 1;
+    border-radius: 4px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 12px;
+    background-color: #1c1c1c;
+  }
+
+  .green {
+    background: #41D395;
+    color: white;
+  }
+
+  .swiper {
+    max-width: 1400px;
+    height: 300px;
+    background: white;
+
+ }
+
+ .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .swiper-slide:nth-of-type(1){
+    background: url("Jeremy.PNG");
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+
+ .swiper-slide:nth-of-type(2){
+    background: url("John.PNG");
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+
+ .swiper-slide:nth-of-type(3){
+    background: url("Susan.PNG");
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+
+ .swiper-pagination-bullet {
+    background: #E27866;
+    border: 3px solid white;
+    width: 10px;
+    height: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+ }
+
+ .swiper-pagination-bullet-active {
+    transform: scale(1.5);
+ }
+ @media (min-width: 1000px){
+  .flex {
+      display: flex;
+      flex-direction: row-reverse;
+      max-width: 1000px;
+      margin: auto;
+  }
+
+  .flex > * {
+      width: 100%;
+  }
+  
+  .tabs {
+      width: 20%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+  }
+
+  .tabs button {
+      display: block;
+  }
+}
+
+
+footer {
+  height: 100px;
+  color: white;
+}
+
+.plswork {
+  background: #1c1c1c;
+}
